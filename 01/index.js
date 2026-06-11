@@ -13,6 +13,9 @@ app.get("/" , (req , res)=>{
 app.get("/signup" , (req , res)=>{
     res.send("on signup page")
 })
+app.get("/signup" , (req , res)=>{
+    res.send("on signup page")
+})
 
 app.listen(port , ()=>{
     console.log(`Example app listening on port ${port}`)
